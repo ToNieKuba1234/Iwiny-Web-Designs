@@ -61,8 +61,8 @@ export default function Navbar({ setMobileMenu, mobileMenu }) {
                         </div>
 
                         <ul className="absolute invisible text-white transition-all duration-300 rounded-lg shadow-lg opacity-0 bg-teal-950 mt-16-2 w- group-hover:opacity-100 group-hover:visible group-hover:translate-y-1">
-                            <li className="p-2 rounded-lg shadow min-w-[200px] hover:bg-teal-900 active:bg-teal-800">O nas</li>
-                            <li className="p-2 rounded-lg shadow min-w-[200px] hover:bg-teal-900 active:bg-teal-800">FAQ</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-teal-900 active:bg-teal-800">O nas</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-teal-900 active:bg-teal-800">FAQ</li>
                         </ul>
                     </li>
                     <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500'>Cennik</li>
