@@ -11,6 +11,10 @@ module.exports = {
           'bebas-neue': ['Bebas Neue', 'sans-serif'],
           'selection': ['Selection', 'sans-serif']
         },
+
+        backgroundImage: {
+          'landing-hero-1': "url('./src/assets/landing_bg.png')"
+        },
       },
     },
     plugins: [],  

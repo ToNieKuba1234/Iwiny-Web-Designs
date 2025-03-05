@@ -19,7 +19,7 @@ function App() {
         <MobileMenu mobileMenu={mobileMenu} />
 
         <Routes>
-          <Route path="/" element={<Home />} /> {/* Strona główna */}
+          <Route path="/" element={<Home />} />
         </Routes>
 
         <Footer />

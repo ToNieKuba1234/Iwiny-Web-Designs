@@ -15,9 +15,9 @@ export default function MobileMenu( { mobileMenu } ) {
     return (
         <div className={`w-screen h-auto bg-white shadow-lg ${mobileMenu ? 'flex' : 'hidden'} md:hidden`}>
                 <ul className="flex flex-col justify-center w-full text-white border-0 font-kanit">
-                    <li className="flex justify-center w-full px-8 py-4 bg-teal-950 active:bg-teal-900">Główna</li>
+                    <li className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]">Główna</li>
                     
-                    <li onClick={handleServiceList} className="flex justify-center w-full px-8 py-4 bg-teal-950 active:bg-teal-900">
+                    <li onClick={handleServiceList} className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]">
                         <div className="relative flex flex-row items-center gap-1">
                             <span className="">Usługi</span>
                             
@@ -35,16 +35,21 @@ export default function MobileMenu( { mobileMenu } ) {
                         </div>
                     </li>
                     
+
+                    {/* active:bg-[#7e1d3d]
+                    hover:bg-[#9b234b]
+                    subNav: bg-[#b32655]
+                    Nav: bg-[#e51d61] */}
+
                     {/* Te od Usług */}
                     <ul className={`${serviceList ? 'flex' : 'hidden'} flex-col justify-center w-full`}>
-                        <li className="flex justify-center w-full px-8 py-4 bg-teal-800 hover:bg-teal-700">Web Dev</li>
-                        <li className="flex justify-center w-full px-8 py-4 bg-teal-800 hover:bg-teal-700">SEO</li>
-                        <li className="flex justify-center w-full px-8 py-4 bg-teal-800 hover:bg-teal-700">Google PPC Ads</li>
+                        <li className="flex justify-center w-full px-8 py-4 bg-[#b32655] hover:active:bg-[#7e1d3d]">Web Dev</li>
+                        <li className="flex justify-center w-full px-8 py-4 bg-[#b32655] hover:active:bg-[#7e1d3d]">SEO</li>
+                        <li className="flex justify-center w-full px-8 py-4 bg-[#b32655] hover:active:bg-[#7e1d3d]">Google PPC Ads</li>
                     </ul>
                     
                     
-                    
-                    <li onClick={handleAboutList} className="flex justify-center w-full px-8 py-4 bg-teal-950 active:bg-teal-900">
+                    <li onClick={handleAboutList} className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]">
                         <div className="relative flex flex-row items-center gap-1">
                             <span className="">O nas</span>
                             
@@ -64,14 +69,13 @@ export default function MobileMenu( { mobileMenu } ) {
                     
                     {/* Te od O nas */}
                     <ul className={`${aboutList ? 'flex' : 'hidden'} flex-col justify-center w-full`}>
-                        <li className="flex justify-center w-full px-8 py-4 bg-teal-800 hover:bg-teal-700">Web Dev</li>
-                        <li className="flex justify-center w-full px-8 py-4 bg-teal-800 hover:bg-teal-700">SEO</li>
-                        <li className="flex justify-center w-full px-8 py-4 bg-teal-800 hover:bg-teal-700">Google PPC Ads</li>
+                        <li className="flex justify-center w-full px-8 py-4 bg-[#b32655] active:bg-[#7e1d3d]">O nas</li>
+                        <li className="flex justify-center w-full px-8 py-4 bg-[#b32655] hover:active:bg-[#7e1d3d]">FAQ</li>
                     </ul>
 
 
-                    <li className="flex justify-center w-full px-8 py-4 active:bg-teal-900 bg-teal-950">Cennik</li>
-                    <li className="flex justify-center w-full px-8 py-4 active:bg-teal-900 bg-teal-950">Kontakt</li>
+                    <li className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]">Cennik</li>
+                    <li className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]">Kontakt</li>
                 </ul>
         </div>
     )

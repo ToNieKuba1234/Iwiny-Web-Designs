@@ -4,23 +4,22 @@ export default function Navbar({ setMobileMenu, mobileMenu }) {
     const toggleMobileMenu = () => {
         setMobileMenu(!mobileMenu);
     }
-  
+
     return (
-        <div className='bg-teal-950 bg-opacity-80 sticky w-screen h-[100px] flex justify-evenly items-center p-6'>
+        <div className="z-10 bg-[#e51d61] static lg:sticky top-0 w-screen h-[100px] flex justify-evenly items-center p-6 border-[#18141c] border-b-[1px]">
             <div className='flex'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-[70px] px-4 text-white">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
                 </svg>
 
-                
                 <div className='text-2xl text-white font-kanit'>
                     <h1 className='block'>Iwiny</h1>
                     <h1 className='xl:block'>Web Designs</h1>
                 </div>
             </div>
-            
+
             <div className='flex'>
-                <ul className='justify-center hidden mt-2 ml-auto mr-10 space-x-8 md:flex' >
+                <ul className='justify-center hidden mt-2 ml-auto mr-10 space-x-8 md:flex'>
                     <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500'>Główna</li>
                     <li className="text-xl text-white cursor-pointer font-kanit group">
                         <div className="relative flex flex-row items-center gap-1">
@@ -38,37 +37,37 @@ export default function Navbar({ setMobileMenu, mobileMenu }) {
                             </svg>
                         </div>
 
-                        <ul className="absolute invisible text-white transition-all duration-300 rounded-lg shadow-lg opacity-0 bg-teal-950 mt-16-2 w- group-hover:opacity-100 group-hover:visible group-hover:translate-y-1">
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-teal-900 active:bg-teal-800">Web Dev</li>
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-teal-900 active:bg-teal-800">SEO</li>
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-teal-900 active:bg-teal-800">Google PPC Ads</li>
+                        <ul className="absolute invisible text-white transition-all duration-300 rounded-lg shadow-lg opacity-0 bg-[#b32655] mt-16-2 w- group-hover:opacity-100 group-hover:visible group-hover:translate-y-1">
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">Web Dev</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">SEO</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">Google PPC Ads</li>
                         </ul>
                     </li>
-                    <li className="text-xl text-white cursor-pointer font-kanit group">
-                        <div className="relative flex flex-row items-center gap-1">
+                    <li className="relative text-xl text-white cursor-pointer font-kanit group">
+                        <div className="flex flex-row items-center gap-1">
                             <span className="hover:text-gray-400">O nas</span>
-
                             <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="size-6"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                strokeWidth={1.5}
+                                stroke="currentColor"
+                                className="size-6"
                             >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>
                         </div>
 
-                        <ul className="absolute invisible text-white transition-all duration-300 rounded-lg shadow-lg opacity-0 bg-teal-950 mt-16-2 w- group-hover:opacity-100 group-hover:visible group-hover:translate-y-1">
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-teal-900 active:bg-teal-800">O nas</li>
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-teal-900 active:bg-teal-800">FAQ</li>
+                        <ul className="absolute invisible text-white transition-all duration-300 rounded-lg shadow-lg opacity-0 bg-[#b32655] mt-16-2 w- group-hover:opacity-100 group-hover:visible group-hover:translate-y-1">
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">O nas</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">FAQ</li>
                         </ul>
                     </li>
+
                     <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500'>Cennik</li>
                     <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500'>Kontakt</li>
                 </ul>
-                
+
                 <button onClick={toggleMobileMenu} className="block ml-auto mr-5 md:hidden">
                     {mobileMenu === false && (
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-white size-8">
@@ -80,9 +79,8 @@ export default function Navbar({ setMobileMenu, mobileMenu }) {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                         </svg>
                     )}
-                    
                 </button>
             </div>
         </div>
-    )
+    );
 }

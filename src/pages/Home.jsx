@@ -1,12 +1,10 @@
 import React from 'react';
+import LandingPage from '../components/LandingPage';
 
-function Home() {
-
+export default function Home() {
   return (
-    <div className="bg-red-500">
-        siema
+    <div className="w-full">
+      <LandingPage />
     </div>
   );
 }
-
-export default Home;
