@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Iwiny-Web-Designs/static/css/main.01e5bde8.css",
-    "main.js": "/Iwiny-Web-Designs/static/js/main.fcead315.js",
+    "main.css": "/Iwiny-Web-Designs/static/css/main.96e599c8.css",
+    "main.js": "/Iwiny-Web-Designs/static/js/main.b01d15f1.js",
     "static/media/coffe.png": "/Iwiny-Web-Designs/static/media/coffe.ddbf3d1633f43e4d9451.png",
     "static/media/hero-icon.png": "/Iwiny-Web-Designs/static/media/hero-icon.517df1fcc38947d7e778.png",
     "static/media/landing_bg.png": "/Iwiny-Web-Designs/static/media/landing_bg.40e19e19203bdcccdb74.png",
     "index.html": "/Iwiny-Web-Designs/index.html",
-    "main.01e5bde8.css.map": "/Iwiny-Web-Designs/static/css/main.01e5bde8.css.map",
-    "main.fcead315.js.map": "/Iwiny-Web-Designs/static/js/main.fcead315.js.map"
+    "main.96e599c8.css.map": "/Iwiny-Web-Designs/static/css/main.96e599c8.css.map",
+    "main.b01d15f1.js.map": "/Iwiny-Web-Designs/static/js/main.b01d15f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.01e5bde8.css",
-    "static/js/main.fcead315.js"
+    "static/css/main.96e599c8.css",
+    "static/js/main.b01d15f1.js"
   ]
 }
