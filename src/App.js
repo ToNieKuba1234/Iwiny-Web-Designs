@@ -9,8 +9,6 @@ import Footer from './components/Footer';
 // Podstrony
 import Home from './pages/Home';
 
-//bg: #201c2c
-
 function App() {
   const [mobileMenu, setMobileMenu] = useState(false);
 

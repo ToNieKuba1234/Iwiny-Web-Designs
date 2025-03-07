@@ -1,5 +1,5 @@
 import React from 'react'
-import coffee from '../assets/coffe.png';
+import coffee from '../../assets/coffe.png';
 
 export default function WhoAreWeSection() {
   return (

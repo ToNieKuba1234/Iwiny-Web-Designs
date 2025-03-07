@@ -1,6 +1,6 @@
 import React from 'react'
-import hero_icon from '../assets/hero-icon.png'
-import LandingBg from '../assets/landing_bg.png'
+import hero_icon from '../../assets/hero-icon.png'
+import LandingBg from '../../assets/landing_bg.png'
 
 export default function LandingPage() {
     return (
