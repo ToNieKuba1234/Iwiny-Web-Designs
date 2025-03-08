@@ -4,6 +4,7 @@ import React from 'react';
 import LandingPage from '../components/Home/LandingPage';
 import WhoAreWeSection from '../components/Home/WhoAreWeSection';
 import InfoSection from '../components/Home/InfoSection';
+import Technologies from '../components/Home/Technologies';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <LandingPage />
       <WhoAreWeSection />
       <InfoSection />
+      <Technologies />
     </div>
   );
 }
