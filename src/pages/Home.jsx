@@ -5,6 +5,7 @@ import LandingPage from '../components/Home/LandingPage';
 import WhoAreWeSection from '../components/Home/WhoAreWeSection';
 import InfoSection from '../components/Home/InfoSection';
 import Technologies from '../components/Home/Technologies';
+import PriceSection from '../components/Home/PriceSection';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <WhoAreWeSection />
       <InfoSection />
       <Technologies />
+      <PriceSection />
     </div>
   );
 }
