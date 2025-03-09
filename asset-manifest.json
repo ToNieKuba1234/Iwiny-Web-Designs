@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Iwiny-Web-Designs/static/css/main.eaefd8a0.css",
-    "main.js": "/Iwiny-Web-Designs/static/js/main.ce5fe65e.js",
+    "main.css": "/Iwiny-Web-Designs/static/css/main.99569d48.css",
+    "main.js": "/Iwiny-Web-Designs/static/js/main.05023ca5.js",
     "static/media/coffe.png": "/Iwiny-Web-Designs/static/media/coffe.ddbf3d1633f43e4d9451.png",
     "static/media/computer.png": "/Iwiny-Web-Designs/static/media/computer.e49314dadbe0ee50cd9b.png",
     "static/media/hero-icon.png": "/Iwiny-Web-Designs/static/media/hero-icon.517df1fcc38947d7e778.png",
@@ -12,11 +12,11 @@
     "static/media/html.png": "/Iwiny-Web-Designs/static/media/html.cfb2ba4a6b1c3de295bc.png",
     "static/media/react.png": "/Iwiny-Web-Designs/static/media/react.2a0cac33f155e4a27216.png",
     "index.html": "/Iwiny-Web-Designs/index.html",
-    "main.eaefd8a0.css.map": "/Iwiny-Web-Designs/static/css/main.eaefd8a0.css.map",
-    "main.ce5fe65e.js.map": "/Iwiny-Web-Designs/static/js/main.ce5fe65e.js.map"
+    "main.99569d48.css.map": "/Iwiny-Web-Designs/static/css/main.99569d48.css.map",
+    "main.05023ca5.js.map": "/Iwiny-Web-Designs/static/js/main.05023ca5.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaefd8a0.css",
-    "static/js/main.ce5fe65e.js"
+    "static/css/main.99569d48.css",
+    "static/js/main.05023ca5.js"
   ]
 }
