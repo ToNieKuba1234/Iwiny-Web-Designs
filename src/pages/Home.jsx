@@ -6,6 +6,7 @@ import WhoAreWeSection from '../components/Home/WhoAreWeSection';
 import InfoSection from '../components/Home/InfoSection';
 import Technologies from '../components/Home/Technologies';
 import PriceSection from '../components/Home/PriceSection';
+import HeroSection from '../components/Home/HeroSection';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <InfoSection />
       <Technologies />
       <PriceSection />
+      <HeroSection />
     </div>
   );
 }
