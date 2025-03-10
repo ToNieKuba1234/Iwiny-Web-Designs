@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function PriceSection() {
   const Check = () => (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
@@ -15,12 +13,12 @@ export default function PriceSection() {
   
   return (
     <section className='bg-[#b0b0b0] flex flex-col items-center py-16 gap-y-16 h-auto'>
-      <h1 className='my-16 text-5xl font-bold text-center text-[#303030] xl:text-6xl'>
+      <h1 className='mb-16 text-5xl font-bold text-center text-[#303030] xl:text-6xl'>
         Przystępne pakiety cenowe dla każdego.
       </h1>
       
       <ul className='grid w-5/6 h-auto grid-cols-1 gap-8 lg:grid-cols-2 lg:grid-rows-2 lg:gap-x-12 xl:grid-cols-3 xl:grid-rows-1 xl:gap-8'>
-        <li className='flex flex-col w-full bg-white rounded-3xl'>
+        <li className='flex flex-col w-full bg-white shadow-lg rounded-3xl'>
           <div className='px-6 py-8 sm:p-10 sm:pb-6'>
             <h2 className='text-4xl font-medium tracking-tighter text-gray-600'>Lump Sum</h2>
             <ul className='flex flex-col mt-2 text-gray-500 list-inside text-md gap-y-5'>
@@ -64,7 +62,7 @@ export default function PriceSection() {
           </div>
         </li>
         
-        <li className='flex flex-col w-full bg-white rounded-3xl'>
+        <li className='flex flex-col w-full bg-white shadow-lg rounded-3xl'>
           <div className='px-6 py-8 sm:p-10 sm:pb-6'>
             <h2 className='text-4xl font-medium tracking-tighter text-gray-600'>Miesięczna</h2>
             <ul className='flex flex-col mt-2 text-gray-500 list-inside gap-y-5 text-md'>
@@ -106,7 +104,7 @@ export default function PriceSection() {
           </div>
         </li>
         
-        <li className='flex flex-col w-full bg-white rounded-3xl lg:col-span-2 lg:w-1/2 lg:mx-auto xl:w-full xl:col-span-1'>
+        <li className='flex flex-col w-full bg-white shadow-lg rounded-3xl lg:col-span-2 lg:w-1/2 lg:mx-auto xl:w-full xl:col-span-1'>
           <div className='px-6 py-8 sm:p-10 sm:pb-6'>
             <h2 className='text-4xl font-medium tracking-tighter text-gray-600'>E-Commerce</h2>
             <ul className='flex flex-col mt-2 text-gray-500 list-inside gap-y-5 text-md'>
@@ -142,7 +140,7 @@ export default function PriceSection() {
             <p className='mt-6 text-5xl tracking-tight text-black'>10 000zł</p>
           </div>
           <div className='flex px-6 pb-8 sm:px-8'>
-            <a className='flex items-center justify-center w-full px-6 py-2.5 text-white bg-gray-400 border-2 rounded-full cursor-not-allowed' href='#'>Dostępne wkrótce</a>
+            <a className='flex items-center justify-center w-full px-6 py-2.5 text-white bg-gray-400 border-2 rounded-full cursor-not-allowed' href=''>Dostępne wkrótce</a>
           </div>
         </li>
       </ul>

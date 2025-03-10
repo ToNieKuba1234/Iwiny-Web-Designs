@@ -2,21 +2,19 @@ import React from 'react'
 
 export default function HeroSection() {
   return (
-    <section>
-        <div>
-            <p>Jesteś Zainteresowany?</p>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-            </svg>
-        </div>
+    <section className='bg-[#b0b0b0] text-[#303030] h-[250px] xl:h-[500px] flex justify-center items-center font-bold p-7'>
+        {/* Kompy */}
+        <h1 className='relative text-6xl hidden xl:block text-center cursor-pointer after:bg-yellow-400 after:absolute after:h-2 after:w-0 after:-bottom-4 after:left-0 after:rounded-full hover:after:w-full after:transition-all after:duration-500 hover:text-[#474747] active:text-[#5e5d5d]'>
+            Jesteś gotów rozwinąć swój <span className='font-serif text-[#181c5c]'>biznes</span>?
+        </h1>
+        
+        {/* Tablety */}
+        <h1 className='relative hidden text-5xl text-center cursor-pointer lg:block xl:hidden after:bg-yellow-400 after:absolute after:h-2 after:w-0 after:-bottom-3 after:left-0 after:rounded-full hover:after:w-full after:transition-all after:duration-500 hover:text-[#474747] active:text-[#5e5d5d]'>
+            Jesteś gotów rozwinąć swój <span className='font-serif text-[#181c5c]'>biznes</span>?
+        </h1>
 
-        <h1>Skontaktuj się</h1>
-
-        <button className='flex items-center justify-center w-20 h-20 bg-[#e51d61] rounded-full'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-            </svg>
-        </button>
+        {/* Mobilka */}
+        <h1 className='text-3xl text-center lg:hidden'>Jesteś gotów rozwinąć swój <span className='font-serif text-[#181c5c]'>biznes</span>?</h1>
     </section>
   )
 }
