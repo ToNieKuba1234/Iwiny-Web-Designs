@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function MobileMenu( { mobileMenu } ) {
     const [ serviceList, setServiceList ] = useState(false);
     const [ aboutList, setAboutList ] = useState(false);
+
+    const navigate = useNavigate();
 
     const handleServiceList = () => {
         setServiceList(!serviceList);
@@ -15,7 +18,7 @@ export default function MobileMenu( { mobileMenu } ) {
     return (
         <div className={`w-screen h-auto bg-white shadow-lg ${mobileMenu ? 'flex' : 'hidden'} md:hidden`}>
                 <ul className="flex flex-col justify-center w-full text-white border-0 font-kanit">
-                    <li className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]">Główna</li>
+                    <li className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]" onClick={() => navigate("/")}>Główna</li>
                     
                     <li onClick={handleServiceList} className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]">
                         <div className="relative flex flex-row items-center gap-1">
@@ -74,8 +77,8 @@ export default function MobileMenu( { mobileMenu } ) {
                     </ul>
 
 
-                    <li className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]">Cennik</li>
-                    <li className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]">Kontakt</li>
+                    <li className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]" onClick={() => navigate("/cennik")}>Cennik</li>
+                    <li className="flex justify-center w-full px-8 py-4 bg-[#e51d61] active:bg-[#9b234b]" onClick={() => navigate("/kontakt")}>Kontakt</li>
                 </ul>
         </div>
     )
