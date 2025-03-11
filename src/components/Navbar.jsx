@@ -1,9 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar({ setMobileMenu, mobileMenu }) {
     const toggleMobileMenu = () => {
         setMobileMenu(!mobileMenu);
     }
+
+    const navigate = useNavigate();
 
     return (
         <div className="z-30 bg-[#e51d61] static lg:sticky top-0 w-screen h-[100px] flex justify-evenly items-center p-6 border-[#18141c] border-b-[1px]">
@@ -20,7 +23,7 @@ export default function Navbar({ setMobileMenu, mobileMenu }) {
 
             <div className='flex'>
                 <ul className='justify-center hidden mt-2 ml-auto mr-10 space-x-8 md:flex'>
-                    <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500'>Główna</li>
+                    <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500' onClick={() => navigate("/")}>Główna</li>
                     <li className="text-xl text-white cursor-pointer font-kanit group">
                         <div className="relative flex flex-row items-center gap-1">
                             <span className="hover:text-gray-400">Usługi</span>
@@ -64,8 +67,8 @@ export default function Navbar({ setMobileMenu, mobileMenu }) {
                         </ul>
                     </li>
 
-                    <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500'>Cennik</li>
-                    <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500'>Kontakt</li>
+                    <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500' onClick={() => navigate("/cennik")}>Cennik</li>
+                    <li className='text-xl text-white cursor-pointer font-kanit underline-hover hover:text-gray-400 active:text-gray-500' onClick={() => navigate("/kontakt")}>Kontakt</li>
                 </ul>
 
                 <button onClick={toggleMobileMenu} className="block ml-auto mr-5 md:hidden">

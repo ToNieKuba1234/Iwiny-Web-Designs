@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 
 // Podstrony
 import Home from './pages/Home';
+import Price from './pages/Price';
+import Contact from './pages/Contact';
 
 function App() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -19,6 +21,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/cennik" element={<Price />} />
+        <Route path='/kontakt' element={<Contact />} />
       </Routes>
 
       <Footer />
