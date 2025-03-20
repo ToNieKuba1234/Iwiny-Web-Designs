@@ -41,9 +41,9 @@ export default function Navbar({ setMobileMenu, mobileMenu }) {
                         </div>
 
                         <ul className="absolute invisible text-white transition-all duration-300 rounded-lg shadow-lg opacity-0 bg-[#b32655] mt-16-2 w- group-hover:opacity-100 group-hover:visible group-hover:translate-y-1">
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">Web Dev</li>
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">SEO</li>
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">Google PPC Ads</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]" onClick={() => navigate("/webdev")}>Web Dev</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]" onClick={() => navigate("/seo")}>SEO</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]" onClick={() => navigate("/gpa")}>Google PPC Ads</li>
                         </ul>
                     </li>
                     <li className="relative text-xl text-white cursor-pointer font-kanit group">
@@ -62,8 +62,8 @@ export default function Navbar({ setMobileMenu, mobileMenu }) {
                         </div>
 
                         <ul className="absolute invisible text-white transition-all duration-300 rounded-lg shadow-lg opacity-0 bg-[#b32655] mt-16-2 w- group-hover:opacity-100 group-hover:visible group-hover:translate-y-1">
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">O nas</li>
-                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]">FAQ</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]" onClick={() => navigate("/onas")}>O nas</li>
+                            <li className="p-2 rounded-lg min-w-[200px] hover:bg-[#9b234b] active:bg-[#7e1d3d]" onClick={() => navigate("/faq")}>FAQ</li>
                         </ul>
                     </li>
 
